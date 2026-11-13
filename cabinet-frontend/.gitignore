@@ -1,0 +1,38 @@
+# --- Maven & Spring Boot (all 5 microservices) ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.war
+*.ear
+*.log
+
+# --- Angular & Node (cabinet-frontend) ---
+dist/
+tmp/
+out-tsc/
+node_modules/
+.angular/
+npm-debug.log
+yarn-error.log
+
+# --- IDEs & Editors ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# --- OS & Misc ---
+.DS_Store
+Thumbs.db
